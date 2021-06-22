@@ -1,0 +1,10 @@
+server:
+  port: 9292
+
+security:
+  oauth2:
+    resource:
+      token-info-uri: http://localhost:9191/auth-service/oauth/check_token
+    client:
+      client-id: agency
+      client-secret: agency
