@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: hystrix-app
+    
+management:
+  endpoint:
+    hystrix:
+      stream:
+        enabled: true
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "*"
+hystrix:
+  dashboard:
+    proxy-stream-allow-list:
+    - "*"
+
