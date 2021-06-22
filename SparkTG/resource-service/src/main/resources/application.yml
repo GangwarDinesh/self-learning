@@ -1,0 +1,10 @@
+server:
+  port: 8082
+
+security:
+  oauth2:
+    resource:
+      token-info-uri: http://localhost:8080/sparktg-test-app/oauth/check_token
+    client:
+      client-id: client
+      client-secret: secret
