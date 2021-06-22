@@ -1,0 +1,6 @@
+server:
+  port: 9193
+  
+spring:
+  profiles:
+    active: native #This indicates that is used local file configuration

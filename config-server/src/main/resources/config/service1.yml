@@ -1,0 +1,3 @@
+service:
+  greeting: Hello from service 1
+  id: SER-1
