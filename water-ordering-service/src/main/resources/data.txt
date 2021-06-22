@@ -1,0 +1,4 @@
+insert into status_enum(AUTO_ID,STATUS_ID,STATUS_CODE,STATUS_MESSAGE) VALUES(1,1,'Requested','Order has been placed but not yet delivered.');
+insert into status_enum(AUTO_ID,STATUS_ID,STATUS_CODE,STATUS_MESSAGE) VALUES(2,2,'InProgress','Order is being delivered right now.');
+insert into status_enum(AUTO_ID,STATUS_ID,STATUS_CODE,STATUS_MESSAGE) VALUES(3,3,'Delivered','Order has been delivered.');
+insert into status_enum(AUTO_ID,STATUS_ID,STATUS_CODE,STATUS_MESSAGE) VALUES(4,4,'Cancelled','Order was cancelled before delivery.');
