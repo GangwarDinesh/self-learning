@@ -1,0 +1,13 @@
+
+server:
+  servlet:
+    context-path: /microservice2
+    
+  port: 8081
+  
+spring:
+  zipkin:
+    base-url: http://localhost:9411/
+    
+  application:
+    name: microservice2
