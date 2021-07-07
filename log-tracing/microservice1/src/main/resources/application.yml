@@ -1,0 +1,30 @@
+server:
+  port: 8585
+  servlet:
+    context-path: /microservice1
+    
+spring:
+  zipkin:
+    base-url: http://localhost:9411/
+    
+    
+  application:
+    name: microservice1
+    
+  servlet:
+    multipart:
+      enabled: true
+      location: D:\Dinesh\Others\multipart\
+      max-file-size:
+        10MB
+      max-request-size:
+        15MB
+upload:
+  file:
+    required: File can not be empty
+  invalid:
+    file:
+      type: Please upload valid .png file only
+  exceeded:
+    file:
+      size: Please upload a file with size less than 10 MB
